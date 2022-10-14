@@ -1,0 +1,101 @@
+.leftPro{
+    background-color: rgb(61, 13, 138);
+    width: 30%;
+    height: 200vh;
+    display: inline-block;
+    text-align: center;
+    padding:60px;
+    margin: 0px;
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+
+}
+.leftPro ul{
+    text-align: start;
+}
+.rightPro{
+    background-color: rgb(193, 223, 244);
+    display: inline-block;
+    width: 70%;
+    margin: 0px;
+    padding: 0 30px 0 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    display: flex;
+    margin: auto;
+    max-width: 1000px;
+    
+}
+.leftPro .profile{
+    width: 70%;
+    border-radius: 100%;
+    
+}
+.leftPro p {
+    text-align: start;
+    margin: 7px;
+}
+
+.leftHead{
+    font-size: 24px;
+    color: white;
+    margin: 20px;
+}
+hr{
+    margin: 10px;
+}
+.rightPro .major{
+    font-size: 25px;
+    color: rgb(7, 24, 104);
+    margin: auto;
+}
+.rightPro .rightHead{
+    font-size: 30px;
+    color: rgb(7, 24, 104);
+    font-family: 'Lato', sans-serif;
+}
+.rightPro p{
+    font-size: 15px;
+    margin: auto;
+}
+.rightPro h1{
+    font-size: 45px;
+    margin: 60px 0 0 0;
+    font-family: 'Lato', sans-serif;
+}
+.rightPro .space{
+    margin: 25px 0 25px 0;
+}
+.rightPro .employ{
+    margin: 10px;
+}
+.rightPro .tech{
+    margin: 10px;
+}
+.rightPro .edu{
+    margin:10px;
+    padding-left: 20px;
+}
+
+aside{
+    background-color:rgb(61, 13, 138);
+    color:rgb(193, 223, 244);
+    height:200px;
+    width: 200px;
+    border-radius: 20px 0px 0px 20px;
+    position: absolute;
+    bottom: 0;
+    right:0;
+   
+}
+aside a {
+    text-decoration: none;
+    color:aliceblue;
+    margin: 10px 0px;
+}
+aside h5{
+    font-size: 27px;
+    margin: 10px
+}
